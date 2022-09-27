@@ -8,7 +8,8 @@ public class Main {
 		
 		/*
 		 * product.setName("Laptop"); product.setId(1);
-		 * product.setDescription("Asus Laptop"); product.setPrice(5000);
+		 * product.setDescription("Asus Laptop"); 
+		 * product.setPrice(5000);
 		 * product.setUnitsInStock(3);
 		 */
 		
