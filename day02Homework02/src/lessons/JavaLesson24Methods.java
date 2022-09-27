@@ -27,7 +27,7 @@ public class JavaLesson24Methods {
 		String message = "";
 		
 		if(isExist) {
-			message = "The number : " + search + " isn't in list.";
+			message = "The number : " + search + " is in list.";
 			sendMessage(message);
 			
 		} else {
