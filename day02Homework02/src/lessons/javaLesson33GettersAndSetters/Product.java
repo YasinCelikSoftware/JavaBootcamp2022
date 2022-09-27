@@ -7,7 +7,7 @@ public class Product {
 	private String description;
 	private double price;
 	private int unitsInStock;
-	private String renk;
+	private String color;
 	private String code;
 
 	public int getId() {
@@ -50,12 +50,12 @@ public class Product {
 		this.unitsInStock = unitsInStock;
 	}
 
-	public String getRenk() {
-		return renk;
+	public String getColor() {
+		return color;
 	}
 
-	public void setRenk(String renk) {
-		this.renk = renk;
+	public void setColor(String color) {
+		this.color = color;
 	}
 
 	public String getCode() {
