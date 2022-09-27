@@ -2,7 +2,7 @@ package lessons.javaLesson34Constructors;
 
 public class Product {
 	
-	public Product(int id, String name, String description, double price, int unitsInStock, String renk) {
+	public Product(int id, String name, String description, double price, int unitsInStock, String color) {
 		
 		System.out.println("Constructor block working.");
 		this.id = id;
@@ -10,7 +10,7 @@ public class Product {
 		this.description = description;
 		this.price = price;
 		this.unitsInStock = unitsInStock;
-		this.renk = renk;
+		this.color = color;
 		
 	}
 	
@@ -23,7 +23,7 @@ public class Product {
 	private String description;
 	private double price;
 	private int unitsInStock;
-	private String renk;
+	private String color;
 	private String code;
 
 	public int getId() {
@@ -66,12 +66,12 @@ public class Product {
 		this.unitsInStock = unitsInStock;
 	}
 
-	public String getRenk() {
-		return renk;
+	public String getColor() {
+		return color;
 	}
 
-	public void setRenk(String renk) {
-		this.renk = renk;
+	public void setColor(String color) {
+		this.color = color;
 	}
 
 	public String getCode() {
