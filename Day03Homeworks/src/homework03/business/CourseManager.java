@@ -40,7 +40,7 @@ public class CourseManager {
 
         courses.add(course.getName());
 
-        System.out.print("Category saved : " + course.getName() + " (");
+        System.out.print("Course saved : " + course.getName() + " (");
         homeworkDao.save();
         System.out.println(")");
 
